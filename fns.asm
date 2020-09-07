@@ -19,14 +19,20 @@ tostoreto dw 0                         ; Store to this address
 ;---------------------------------------
 section   .text                        ; Begin code-containing segment
 ;---------------------------------------
+; Dummy to make loads2 symbol export
+; seperately
+;---------------------------------------
+dummy:                                 ;
+        mov rax, rax                   ; Dummy
+        mov rbx, rbx                   ; Dummy
+;---------------------------------------
 ; Load a word's worth of data.
 ; Do nothing else with that data.
 ;---------------------------------------
 loads:                                 ;
-        lea rsi, [rel toloadfrom]      ; rsi = &toloadfrom;
-        mov rax, [rsi]                 ; rax = *rsi;
-        mov       rax, 60              ; system call for exit
-        xor       rdi, rdi             ; exit code 0
+        mov rax, [rel toloadfrom]      ; rax = *rsi;
+        mov rax, 60                    ; system call for exit
+        xor rdi, rdi                   ; exit code 0
         syscall                        ; Invoke exit syscall
 ;---------------------------------------
 ; Store 1 in "tostoreto".
