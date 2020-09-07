@@ -73,5 +73,5 @@ otheruselesslabel:                     ;
         xor       rdi, rdi             ; exit code 0
         syscall                        ; Invoke exit syscall
 ;---------------------------------------
-; real.asm ends here.
+; fns.asm ends here.
 ;---------------------------------------

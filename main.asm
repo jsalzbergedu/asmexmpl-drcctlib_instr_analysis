@@ -108,5 +108,5 @@ stack_create:                          ;
 	syscall                        ; Perform mmap() syscall
 	ret                            ; return from stack_create
 ;---------------------------------------
-; real_main.asm ends here
+; main.asm ends here
 ;---------------------------------------
