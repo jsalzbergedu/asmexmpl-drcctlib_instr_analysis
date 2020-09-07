@@ -1,0 +1,4 @@
+*.o
+real
+x86.drcctlib_instr_statistics.out.*
+!x86.drcctlib_instr_statistics.out.jacobs-laptop78969

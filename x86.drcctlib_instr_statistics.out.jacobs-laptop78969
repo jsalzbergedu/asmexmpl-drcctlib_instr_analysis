@@ -1,0 +1,345 @@
+
+0 /home/jacob/Programming/csc412/DrCCTProf/build/bin64/../clients/lib64/release/libdrcctlib_instr_analysis.so 
+NO. 1 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 2====THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000)"
+================================================================================
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 16 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (01) ins call number 1 context handle 3====_start(0):"(0x0000000000401080)"
+================================================================================
+_start(0):"(0x0000000000401080)mov    rdi, 0x0000000000401000"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 2 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 5====THREAD[1]_ROOT_CTXT(0):"(0x0000000000000000)"
+================================================================================
+THREAD[1]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 4 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 6====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+THREAD[1]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 3 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 7====THREAD[2]_ROOT_CTXT(0):"(0x0000000000000000)"
+================================================================================
+THREAD[2]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 6 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 8====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+THREAD[2]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 5 loads (01), store (00), conditional branch (00), unconditional branch (00) other: (03) ins call number 1 context handle 9====<noname>(0):"(0x0000000000401000)"
+================================================================================
+<noname>(0):"(0x0000000000401000)lea    rsi, <rel> [0x0000000000402000]"
+THREAD[1]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 7 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (04) ins call number 1 context handle 14====stores(0):"(0x0000000000401019)"
+================================================================================
+stores(0):"(0x0000000000401019)mov    rax, 0x0000000000000001"
+THREAD[2]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 8 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 20====THREAD[3]_ROOT_CTXT(0):"(0x0000000000000000)"
+================================================================================
+THREAD[3]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 13 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 21====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+THREAD[3]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 9 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 22====THREAD[4]_ROOT_CTXT(0):"(0x0000000000000000)"
+================================================================================
+THREAD[4]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 10 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 23====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+THREAD[4]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 11 loads (00), store (00), conditional branch (01), unconditional branch (00) other: (03) ins call number 1 context handle 24====cbr(0):"(0x0000000000401050)"
+================================================================================
+cbr(0):"(0x0000000000401050)mov    rax, 0x0000000000000001"
+THREAD[4]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 12 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (02) ins call number 1 context handle 28====otheruselesslabel(0):"(0x0000000000401069)"
+================================================================================
+otheruselesslabel(0):"(0x0000000000401069)mov    rax, 0x000000000000003c"
+THREAD[4]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 14 loads (00), store (00), conditional branch (00), unconditional branch (01) other: (00) ins call number 1 context handle 31====ubr(0):"(0x000000000040103c)"
+================================================================================
+ubr(0):"(0x000000000040103c)jmp    0x0000000000401041"
+THREAD[3]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 15 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (02) ins call number 1 context handle 32====uselesslabel(0):"(0x0000000000401041)"
+================================================================================
+uselesslabel(0):"(0x0000000000401041)mov    rax, 0x000000000000003c"
+THREAD[3]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 17 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 35====thread_create(0):"(0x00000000004010cb)"
+================================================================================
+thread_create(0):"(0x00000000004010cb)push   rdi"
+_start(0):"(0x000000000040108a)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 18 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (07) ins call number 1 context handle 37====stack_create(0):"(0x00000000004010f1)"
+================================================================================
+stack_create(0):"(0x00000000004010f1)mov    rdi, 0x0000000000000000"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x000000000040108a)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 19 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 45====stack_create(0):"(0x0000000000401139)"
+================================================================================
+stack_create(0):"(0x0000000000401139)ret"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x000000000040108a)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 20 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (03) ins call number 1 context handle 46====thread_create(0):"(0x00000000004010d1)"
+================================================================================
+thread_create(0):"(0x00000000004010d1)lea    rsi, [rax+0x003ffff8]"
+_start(0):"(0x000000000040108a)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 21 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 51====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+_start(0):"(0x000000000040108a)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 22 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (01) ins call number 1 context handle 52====_start(0):"(0x000000000040108f)"
+================================================================================
+_start(0):"(0x000000000040108f)mov    rdi, 0x0000000000401019"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 23 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 54====thread_create(0):"(0x00000000004010cb)"
+================================================================================
+thread_create(0):"(0x00000000004010cb)push   rdi"
+_start(0):"(0x0000000000401099)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 24 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (07) ins call number 1 context handle 56====stack_create(0):"(0x00000000004010f1)"
+================================================================================
+stack_create(0):"(0x00000000004010f1)mov    rdi, 0x0000000000000000"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x0000000000401099)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 25 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 64====stack_create(0):"(0x0000000000401139)"
+================================================================================
+stack_create(0):"(0x0000000000401139)ret"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x0000000000401099)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 26 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (03) ins call number 1 context handle 65====thread_create(0):"(0x00000000004010d1)"
+================================================================================
+thread_create(0):"(0x00000000004010d1)lea    rsi, [rax+0x003ffff8]"
+_start(0):"(0x0000000000401099)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 27 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 70====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+_start(0):"(0x0000000000401099)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 28 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (01) ins call number 1 context handle 71====_start(0):"(0x000000000040109e)"
+================================================================================
+_start(0):"(0x000000000040109e)mov    rdi, 0x000000000040103c"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 29 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 73====thread_create(0):"(0x00000000004010cb)"
+================================================================================
+thread_create(0):"(0x00000000004010cb)push   rdi"
+_start(0):"(0x00000000004010a8)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 30 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (07) ins call number 1 context handle 75====stack_create(0):"(0x00000000004010f1)"
+================================================================================
+stack_create(0):"(0x00000000004010f1)mov    rdi, 0x0000000000000000"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x00000000004010a8)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 31 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 83====stack_create(0):"(0x0000000000401139)"
+================================================================================
+stack_create(0):"(0x0000000000401139)ret"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x00000000004010a8)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 32 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (03) ins call number 1 context handle 84====thread_create(0):"(0x00000000004010d1)"
+================================================================================
+thread_create(0):"(0x00000000004010d1)lea    rsi, [rax+0x003ffff8]"
+_start(0):"(0x00000000004010a8)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 33 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 89====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+_start(0):"(0x00000000004010a8)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 34 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (01) ins call number 1 context handle 90====_start(0):"(0x00000000004010ad)"
+================================================================================
+_start(0):"(0x00000000004010ad)mov    rdi, 0x0000000000401050"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 35 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 92====thread_create(0):"(0x00000000004010cb)"
+================================================================================
+thread_create(0):"(0x00000000004010cb)push   rdi"
+_start(0):"(0x00000000004010b7)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 36 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (07) ins call number 1 context handle 94====stack_create(0):"(0x00000000004010f1)"
+================================================================================
+stack_create(0):"(0x00000000004010f1)mov    rdi, 0x0000000000000000"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x00000000004010b7)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 37 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 102====stack_create(0):"(0x0000000000401139)"
+================================================================================
+stack_create(0):"(0x0000000000401139)ret"
+thread_create(0):"(0x00000000004010cc)call   0x00000000004010f1"
+_start(0):"(0x00000000004010b7)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 38 loads (00), store (01), conditional branch (00), unconditional branch (00) other: (03) ins call number 1 context handle 103====thread_create(0):"(0x00000000004010d1)"
+================================================================================
+thread_create(0):"(0x00000000004010d1)lea    rsi, [rax+0x003ffff8]"
+_start(0):"(0x00000000004010b7)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 39 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (00) ins call number 1 context handle 108====thread_create(0):"(0x00000000004010f0)"
+================================================================================
+thread_create(0):"(0x00000000004010f0)ret"
+_start(0):"(0x00000000004010b7)call   0x00000000004010cb"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
+NO. 40 loads (00), store (00), conditional branch (00), unconditional branch (00) other: (02) ins call number 1 context handle 109====_start(0):"(0x00000000004010bc)"
+================================================================================
+_start(0):"(0x00000000004010bc)mov    rax, 0x000000000000003c"
+THREAD[0]_ROOT_CTXT(0):"(0x0000000000000000) "
+PROCESS[78969]_ROOT_CTXT(0):"(0x0000000000000000) "
+================================================================================
+
+
